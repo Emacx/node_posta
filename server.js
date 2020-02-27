@@ -5,4 +5,5 @@ http.createServer(function(request, response){
 	response.write("holis");
 	response.end();
 
-}).listen(8080);
+}
+http.createServer(onRequest).listen(8080);
